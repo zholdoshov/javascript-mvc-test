@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "firstName": "Nurulla",
+      "lastName": "Zholdoshov",
+      "email": "nur.joldoshov@gmail.com",
+      "phone": "4255150354",
+      "id": "b1cf"
+    },
+    {
+      "firstName": "Jackie",
+      "lastName": "Chan",
+      "email": "jackie@gmail.com",
+      "phone": "3471654172",
+      "id": "d7f3"
+    },
+    {
+      "firstName": "Jet",
+      "lastName": "Li",
+      "email": "jetli@gmail.com",
+      "phone": "1764141237",
+      "id": "fad8"
+    },
+    {
+      "firstName": "Hi",
+      "lastName": "Michael",
+      "email": "michael@gmail.com",
+      "phone": "2342353453",
+      "id": "fe37"
+    },
+    {
+      "firstName": "Askar",
+      "lastName": "Akaev",
+      "email": "askarbek@yahoo.com",
+      "phone": "2343453121",
+      "id": "c0db"
+    }
+  ]
+}

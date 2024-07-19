@@ -1,0 +1,87 @@
+:root {
+    font-size: 16px;
+}
+
+.container {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user__input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.user__add-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user__add-btn:hover {
+    background-color: #218838;
+}
+
+.user__table-container {
+    overflow-x: auto;
+}
+
+.user__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user__table-container th {
+    padding: 10px;
+    border: 1px solid #4f4e4e;
+    text-align: left;
+}
+
+.user__table th,
+.user__table td {
+    padding: 10px;
+    border: 1px solid #9d9696;
+    text-align: left;
+}
+
+.user__table th {
+    background-color: #f8f9fa;
+}
+
+.user__edit-btn,
+.user__delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user__edit-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.user__edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.user__delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.user__delete-btn:hover {
+    background-color: #c82333;
+}

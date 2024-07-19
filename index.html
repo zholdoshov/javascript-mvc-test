@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>User list</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="user__form">
+            <input type="text" placeholder="First name" class="input-fName">
+            <input type="text" placeholder="Last name" class="input-lName">
+            <input type="email" placeholder="Email" class="input-email">
+            <input type="tel" placeholder="Phone number" class="input-phone">
+            <button class="user__add-btn">Add</button>
+        </form>
+        <div class="user__table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="user__table">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
